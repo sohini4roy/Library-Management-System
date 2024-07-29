@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  
+    margin: 0;
+    padding: 20px;
+    background-color: #d2e3e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: below;
+  }
+  
+  #container {
+    background-image: url("img1.png"); /* Set your background image here */
+    width: 800px;
+    margin: 0 auto;
+    
+    border: 1px solid #c7c6ca;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(230, 101, 101, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #login, #userInterface {
+    
+    margin-bottom: 20px;
+  }
+  
+  label {
+   
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  table {
+    margin: 0 auto;
+    background-color: #7d98d4;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+  }
+  
+  th, td {
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #bea2a2;
+  }
+  
+  #bookForm {
+     
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #bookForm button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .error {
+    
+    color: red;
+  }
+  
